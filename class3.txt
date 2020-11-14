@@ -1,0 +1,5 @@
+Omni 94 17 No
+Mormon 65 16 No
+Mosiah 98 14 No
+Alma 100 14 No
+Helaman 25 19 Yes
