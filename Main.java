@@ -74,13 +74,11 @@ to the roster.
                 graduating = "Unknown";
             }
         String yearValue = String.valueOf(2020 - bYear);
-        System.out.println("name " + name + " grade " + grade + " bYear " + bYear + " graduating " + graduating);
         try {
             FileWriter fWrite = new FileWriter(fileName, true);
             BufferedWriter bWrite = new BufferedWriter(fWrite);
             
             bWrite.write("\n" + name + " " + grade + " " + yearValue + " " + graduating);
-            System.out.println("is this hit");
             bWrite.close();
         } catch (IOException ex) {
             System.out.println(ex);
